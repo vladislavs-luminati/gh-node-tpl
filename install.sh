@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SKILL_DIR="$HOME/.copilot/skills/nodejs-repo-template"
-REPO_URL="https://raw.githubusercontent.com/vladislavs/gh-node-tpl/main/SKILL.md"
+REPO_URL="https://raw.githubusercontent.com/vladislavs-luminati/gh-node-tpl/main/SKILL.md"
 
 mkdir -p "$SKILL_DIR"
 

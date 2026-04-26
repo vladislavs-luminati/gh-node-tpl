@@ -57,7 +57,7 @@ my-project/
 ### One-liner
 
 ```bash
-curl --proto =https -fsSL https://raw.githubusercontent.com/vladislavs/gh-node-tpl/main/install.sh -o /tmp/gh-node-tpl-install.sh
+curl --proto =https -fsSL https://raw.githubusercontent.com/vladislavs-luminati/gh-node-tpl/main/install.sh -o /tmp/gh-node-tpl-install.sh
 cat /tmp/gh-node-tpl-install.sh   # inspect before running
 bash /tmp/gh-node-tpl-install.sh && rm /tmp/gh-node-tpl-install.sh
 ```
@@ -65,7 +65,7 @@ bash /tmp/gh-node-tpl-install.sh && rm /tmp/gh-node-tpl-install.sh
 ### Quick Install
 
 ```bash
-git clone https://github.com/vladislavs/gh-node-tpl.git
+git clone https://github.com/vladislavs-luminati/gh-node-tpl.git
 cd gh-node-tpl
 ./install.sh
 ```
