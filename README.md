@@ -70,26 +70,7 @@ cd gh-node-tpl
 ./install.sh
 ```
 
-This copies `SKILL.md` to `~/.copilot/skills/nodejs-repo-template/` and prints the registration snippet.
-
-### Manual Install
-
-```bash
-mkdir -p ~/.copilot/skills/nodejs-repo-template
-cp SKILL.md ~/.copilot/skills/nodejs-repo-template/SKILL.md
-```
-
-### Register the skill in your Copilot instructions
-
-Add the following to your `.github/copilot-instructions.md` or VS Code settings (`settings.json` → `github.copilot.chat.codeGeneration.instructions`):
-
-```xml
-<skill>
-  <name>nodejs-repo-template</name>
-  <description>Scaffold a production-ready Node.js GitHub repository from scratch with ESLint, Prettier, Mocha/Chai tests, Husky pre-commit hooks, lint-staged, EditorConfig, CI/CD GitHub Actions (test + release), MIT license, Dependabot, PR template, and a clean src/tests folder structure. Triggers: 'new node project', 'scaffold nodejs', 'create repo template', 'init node repo', 'nodejs template', 'new npm package', 'github repo template', 'project scaffold'.</description>
-  <file>~/.copilot/skills/nodejs-repo-template/SKILL.md</file>
-</skill>
-```
+This copies `SKILL.md` to `~/.copilot/skills/nodejs-repo-template/` and auto-registers it in VS Code settings.
 
 ### Verify
 
